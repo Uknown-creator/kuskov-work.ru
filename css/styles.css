@@ -3,10 +3,20 @@
 html {
 	font-family: 'Roboto', sans-serif;
 }
-
+@media (max-width: 425px) {
+	html {
+		font-size: 14px;
+	}
+	#vk_post_516711785_209 {
+		margin-top: 5%;
+	}
+}
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
+	}
+	#vk_post_516711785_209 {
+		margin-top: 5%;
 	}
 }
 
@@ -14,11 +24,17 @@ html {
 	html {
 		font-size: 16px;
 	}
+	#vk_post_516711785_209 {
+		margin-top: 3%;
+	}
 }
 
 @media (min-width: 992px) {
 	html {
 		font-size: 18px;
+	}
+	#vk_post_516711785_209 {
+		margin-top: 3%;
 	}
 }
 
@@ -27,7 +43,7 @@ html {
 		font-size: 20px;
 	}
 	#vk_post_516711785_209 {
-		width: 50%;
+		margin-top: 3%;
 	}
 }
 
